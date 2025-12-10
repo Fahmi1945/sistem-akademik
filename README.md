@@ -2,7 +2,7 @@
 
 Aplikasi mobile untuk manajemen sistem informasi akademik sekolah yang dibangun menggunakan Flutter. Aplikasi ini menyediakan fitur lengkap untuk admin, guru, dan siswa dalam mengelola data akademik.
 
-## 📱 Fitur Utama
+## Fitur Utama
 
 ### Admin
 
@@ -26,7 +26,7 @@ Aplikasi mobile untuk manajemen sistem informasi akademik sekolah yang dibangun 
 - Melihat pengumuman
 - Cetak kartu hasil studi
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - **Framework**: Flutter 3.9.0
 - **State Management**: Provider 6.1.1
@@ -36,7 +36,7 @@ Aplikasi mobile untuk manajemen sistem informasi akademik sekolah yang dibangun 
   - Google Fonts 6.2.1
   - Cupertino Icons 1.0.8
 
-## 📸 Screenshots
+## Screenshots
 
 ### Halaman Login
 
@@ -62,7 +62,7 @@ Dashboard guru untuk mengelola nilai siswa dan melihat jadwal mengajar.
 
 Dashboard siswa untuk melihat jadwal pelajaran, nilai, dan pengumuman.
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 ### Persyaratan
 
@@ -92,7 +92,7 @@ flutter pub get
 flutter run
 ```
 
-## 📦 Struktur Proyek
+## Struktur Proyek
 
 ```
 lib/
@@ -135,7 +135,7 @@ lib/
     └── custom_widgets.dart         # Reusable widgets
 ```
 
-## 👥 Role & Akses
+## Role & Akses
 
 | Role  | Username | Password | Akses                     |
 | ----- | -------- | -------- | ------------------------- |
@@ -143,17 +143,17 @@ lib/
 | Guru  | guru     | guru123  | Manage Nilai, View Jadwal |
 | Siswa | siswa    | siswa123 | View Jadwal, View Nilai   |
 
-## 🔐 Keamanan
+## Keamanan
 
 - Implementasi autentikasi berbasis role
 - Password tersimpan dengan aman di database lokal
 - Session management menggunakan Provider
 
-## 📄 Lisensi
+## Lisensi
 
 Project ini dibuat untuk keperluan akademik.
 
-## 👨‍💻 Pengembang
+## Pengembang
 
 Dikembangkan sebagai project Mobile Programming - Semester 5
 
