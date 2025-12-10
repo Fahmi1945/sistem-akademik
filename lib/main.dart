@@ -6,6 +6,7 @@ import 'providers/guru_provider.dart';
 import 'providers/jadwal_provider.dart';
 import 'providers/nilai_provider.dart';
 import 'providers/pengumuman_provider.dart';
+import 'providers/user_provider.dart'; // ← TAMBAH INI
 import 'screens/login_screen.dart';
 
 void main() {
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => JadwalProvider()),
         ChangeNotifierProvider(create: (_) => NilaiProvider()),
         ChangeNotifierProvider(create: (_) => PengumumanProvider()),
+        ChangeNotifierProvider(create: (_) => UserProvider()), // ← TAMBAH INI
       ],
       child: MaterialApp(
         title: 'Sistem Informasi Akademik',
